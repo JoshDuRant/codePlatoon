@@ -1,0 +1,8 @@
+function toHours(minutes) {
+  // write your code here
+  let total = minutes / 60;
+  return total;
+}
+
+let test = toHours(45);
+console.log(test);
