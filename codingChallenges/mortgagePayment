@@ -1,0 +1,7 @@
+function mortgagePayment(amountInvested, annualInterest) {
+  // write your code here
+  return amountInvested * annualInterest;
+}
+
+let test = mortgagePayment(100000, .05);
+console.log(test);
