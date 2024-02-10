@@ -1,0 +1,9 @@
+function totalChange(amountPaid, totalCost) {
+  // write your code here
+  let change = amountPaid - totalCost;
+  return change;
+}
+
+// ---- TESTS - don't change these ---- //
+console.log(totalChange(100, 75))
+console.log(totalChange(10, 7.28))
